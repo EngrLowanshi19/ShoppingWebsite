@@ -5,7 +5,7 @@ An online shopping website for purchase of various types of product.
 
 Key Features:
 
-User side- Add products to cart, Place an order, Sign In/Sing Up option
+User side- Add products to cart, Place an order, Sign In/Sign Up option
 
 Tech Stack: HTML and CSS
 
