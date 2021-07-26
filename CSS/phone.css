@@ -1,0 +1,167 @@
+.navcls {
+  flex-direction: column;
+}
+
+.imgCls {
+  width: 60px;
+  height: 50px;
+  position: absolute;
+  left: 2px;
+}
+
+.navUlCls {
+  display: flex;
+  /* margin: 1.1rem; */
+  justify-content: center;
+  /* border:2px solid black; */
+  list-style: none;
+}
+.navLicls a {
+  /* border:2px solid whitesmoke; */
+  border-radius: 1.2rem;
+  padding: 0.4rem;
+  margin: 0.6rem;
+  font-size: 1.1rem;
+  text-align: center;
+  text-decoration: none;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.cart {
+  /* border:2px solid black; */
+  width: 40%;
+  position: absolute;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  right: 1px;
+  justify-content: space-evenly;
+}
+
+.home {
+  /* flex-direction: column; */
+  overflow: hidden;
+  justify-content: center;
+}
+.clothes {
+  width: 200px;
+  margin: 0px 5px;
+}
+.clothes img {
+  width: 200px;
+}
+.clth {
+  font-size: 15px;
+}
+
+footer {
+  flex-direction: column;
+  overflow: hidden;
+}
+.cart {
+  position: relative;
+  right: 0px;
+}
+
+@media screen and (max-width: 650px) {
+  .clothes {
+    width: 100px;
+    margin: 0px 5px;
+  }
+  .clothes img {
+    width: 100px;
+    height: 150px;
+  }
+  .clth {
+    font-size: 10px;
+  }
+  footer {
+    width: 100%;
+    height: 50vh;
+
+    overflow: hidden;
+  }
+  
+  .shopNow a {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .foot {
+    width: 100px;
+  }
+  .company {
+    width: 10px;
+  }
+  h6 {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .cart {
+    /* border:2px solid black; */
+    /* width:20%; */
+    position: absolute;
+    /* margin-right: 10px; 
+        margin-bottom: 10px; */
+    display: flex;
+    top: 0px;
+  }
+
+  .imgCls {
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    left: 2px;
+  }
+
+  .navUlCls {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    /* border:2px solid black; */
+    list-style: none;
+  }
+  .navLicls a {
+    /* border:2px solid whitesmoke; */
+    width: 20px;
+    padding: 0.3rem;
+    margin: 0.4rem;
+    font-size: 10px;
+  }
+
+  .homeh a {
+    font-size: 15px;
+  }
+
+  .navUlCls a:hover {
+    font-size: 10px;
+  }
+
+  .clth:hover {
+    font-size: 10px;
+  }
+
+  .clothes {
+    width: 100px;
+    margin: 0px 3px;
+  }
+  .clothes img {
+    width: 100px;
+    height: 80px;
+  }
+  .clth {
+    font-size: 10px;
+  }
+
+  .shopNow a {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .fa {
+    size: 10px;
+  }
+
+}

@@ -1,0 +1,228 @@
+/* CSS Reset*/
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+/* NAVIGATION MENU */
+
+.imgCls{
+    width:6rem;
+    border:1rem;
+    height: 5rem;
+    border-radius: 2rem;
+    margin: .4rem;
+}
+
+
+.navcls{
+    border:2px solid rgb(46, 45, 45);
+    position: sticky;
+    top:1rem;
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    background-color: rgb(32, 29, 29);
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+}
+.navUlCls{
+    display: flex;
+    width: 50%;
+    margin: 1.1rem;
+    justify-content: center ;
+    /* border:2px solid black; */
+    list-style: none;
+    
+}
+.navLicls a{
+    /* border:2px solid whitesmoke; */
+    border-radius: 1.5rem;
+    padding: .8rem;
+    margin: 1.5rem;
+    font-size: 1.2rem;
+    text-align:center;
+    text-decoration: none;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+
+.navUlCls a:hover
+{
+    background-color: whitesmoke;
+    font-size: 1.3rem;
+    color:black;
+}
+
+
+.cart{
+    /* border:2px solid black; */
+    width:20%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 5rem;
+    align-items: center;
+}
+
+.fa{
+    color:whitesmoke;
+}
+
+
+/* HOME AND MAIN SECTION */
+.home::before
+{
+    content: "";
+    background: url("/IMAGE/pexels-freestocksorg-749353.jpg") no-repeat center center/cover ;
+    position: absolute;
+    top:0px;
+    width: 100%;
+    height: 110vh;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.home{
+    display: flex;
+    justify-content:space-evenly;
+}
+.homeh{
+    /* color:whitesmoke; */
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    /* border:2px solid black; */
+   
+}
+
+.homeh a{
+    border:1px solid red;
+    border-radius: 10%;
+    padding: .5% 10%;
+    font-size: 1.5rem;
+    color:black;
+    text-decoration: none;
+    box-shadow: 1px 1px 15px blue;
+    
+}
+
+.clothes{
+     border-radius: 3rem;
+     background-color: rgb(95, 92, 92);
+}
+.clt{
+    width:20rem;
+    border-radius: 3rem;
+    height: 15rem;
+}
+
+
+
+.clth{
+    position: relative;
+    text-align: center;
+    font-size: 1.4rem;
+    color:whitesmoke;
+    cursor: pointer;
+}
+
+.clth::after{
+    content: " ";
+    width:0px;
+    height: 3px;
+    background: whitesmoke;
+    display: block;
+    margin: auto;
+    transition: 1s;
+}
+
+.clth:hover{
+    font-size: 1.3rem;
+}
+.clth:hover::after{
+    width:50%;
+}
+
+
+.shopNow{
+    margin-top:1.3%;
+    margin-bottom:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopNow a{
+    border:2px solid red;
+    background-image: linear-gradient(to right, red , yellow);
+    /* border-radius: 15%; */
+    padding:0% 2%;
+    font-size: 1.7rem;
+    color:black;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: 1s;
+    
+}
+.shopNow a:hover{
+    background-image: linear-gradient(to bottom right, red , yellow);
+    color:whitesmoke;
+}
+
+
+
+/* FOOTER SECTION */
+
+footer{
+    margin-top: 13px;
+    width:100%;
+    height: 50vh;
+    border: 2px solid black;
+    background-color: black;
+    color:whitesmoke;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact{
+    margin-bottom: 1.5rem;
+}
+
+
+
+.foot h3{
+    /* font-size: 1.7rem; */
+    padding: 2%;
+}
+.foot h5{
+    /* font-size: 1.2rem; */
+    padding: 2%;
+    width: 200px;
+}
+.foot h5:hover{
+    font-size: 0.8rem;
+    cursor: pointer;
+
+}
+.foot h3:hover{
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+h6{
+    text-align: center;
+    font-size: 1.1rem;
+    margin:.5rem;
+}
+
+.mediaLogo{
+    display: flex;
+    justify-content: space-between;
+}
