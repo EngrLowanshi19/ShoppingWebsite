@@ -18,5 +18,4 @@ Tech Stack: HTML and CSS
  
  
 By
-
 Pushpendra Lowanshi
