@@ -1,9 +1,9 @@
-Project-Online-Shopping-Website-Frontend-Side
+Project-Online-Shopping-Website-Frontend-Page
 
 
 An online shopping website for purchase of various types of product.
 
-Features:
+Key Features:
 
 User side- Add products to cart, Place an order, Sign In/Sing Up option
 
